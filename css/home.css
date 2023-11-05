@@ -64,6 +64,10 @@ main {
     top: 15px;
 }
 
+#dark-mode-logo {
+    display: none;
+}
+
 #search {
     position: relative;
     display: flex;
@@ -245,9 +249,13 @@ footer span {
     #menu-items button:hover {
         background-color: #93baf9;
     }
+    
+    #light-mode-logo {
+        display: none;
+    }
 
-    main > img {
-        content: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png);
+    #dark-mode-logo {
+        display: block;
     }
 
     #search {
@@ -302,5 +310,11 @@ footer span {
 
     #top-row {
         border-bottom: 1px solid #3c4043;
+    }
+}
+
+@media all and (min-width: 575px) and (max-width: 768px) {
+    #bottom-row span{
+        justify-content: space-evenly;
     }
 }
