@@ -14,7 +14,8 @@ header {
     text-decoration: none;
 }
 
-#menu-items span:first-child:hover, span:nth-child(2):hover{
+#menu-items span:first-child:hover,
+#menu-items span:nth-child(2):hover {
     text-decoration: underline;
     cursor: pointer;
 }
@@ -40,6 +41,7 @@ header {
     color: white;
     width: 96px;
     height: 36px;
+    padding: 9px 23px;
     border: none;
     border-radius: 4px;
     font-size: 14px;
@@ -155,7 +157,7 @@ input {
     color: #4d5156;
 }
 
-#language a:link {
+#language a {
     color: #1a0dab;
     text-decoration: none;
 }
@@ -218,4 +220,87 @@ footer span {
 
 #bottom-row span:last-child {
     padding-right: 30px;
+}
+
+
+@media all and (prefers-color-scheme: dark) {
+    body {
+        background-color: #202124;
+        color: white;
+    }
+
+    #menu-items span {
+        color: white;
+    }
+
+    #menu-items span.material-symbols-outlined:hover {
+        background-color: rgba(232,234,237,.08);
+    }
+
+    #menu-items button {
+        background-color: #8ab4f8;
+        color: #202124;
+    }
+
+    #menu-items button:hover {
+        background-color: #93baf9;
+    }
+
+    main > img {
+        content: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png);
+    }
+
+    #search {
+        border: 1px solid #5f6368;
+        background-color: #202124;
+    }
+
+    #search:hover {
+        background-color: #303134;
+        box-shadow: 0 1px 6px 0 #171717;
+        border-color: rgba(223,225,229,0);
+    }
+
+
+    input {
+        background-color: transparent;
+    }
+
+    #search span:first-child{
+        color: #bdc1c6;
+    }
+
+    #buttons button {
+        background-color: #303134;
+        border: 1px solid #303134;
+        border-radius: 4px;
+        color: #e8eaed;
+    }
+
+    #buttons button:hover {
+        box-shadow: 0 1px 3px rgba(23,23,23,0.24);
+        background-color: #303134;
+        border: 1px solid #5f6368;
+        color: #e8eaed;
+    }
+
+    #language span:first-child {
+        color: #bdc1c6;
+    }
+
+    #language a {
+        color: #8ab4f8;
+    }
+
+    footer div {
+        background-color: #171717;
+    }
+
+    footer span {
+        color: #9aa0a6;
+    }
+
+    #top-row {
+        border-bottom: 1px solid #3c4043;
+    }
 }
