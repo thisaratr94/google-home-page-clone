@@ -1,11 +1,17 @@
 # Google Home Page Clone
 
-"All product logos, designs, and trademarks, with the exception of the code, are copyrighted and belong to their respective owners"
+A simple clone of the Google homepage to practice HTML and CSS skills. This project replicates the basic structure and styling of the Google homepage and includes a dark mode for the user's preference.
+
+All product logos, designs, and trademarks, with the exception of the code, are copyrighted and belong to their respective owners.
+
+## Project Preview-Light mode
 
 ![Project Preview-Light mode](img/screenshots/light-mode.png)
+
+## Project Preview-Dark mode
+
 ![Project Preview-Dark mode](img/screenshots/dark-mode.png)
 
-A simple clone of the Google homepage to practice HTML and CSS skills. This project replicates the basic structure and styling of the Google homepage and includes a dark mode for the user's preference.
 
 ## Table of Contents
 - [Features](#features)
