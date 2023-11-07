@@ -171,9 +171,9 @@ input {
 }
 
 footer{
-    position: relative;
+    position: absolute;
     width: 100%;
-    top: 212px;
+    bottom: 0;
 }
 
 footer div {
